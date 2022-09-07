@@ -83,14 +83,13 @@ nav a {
 }
 
 .contact_us {
-    height: 38px;
-    width: 108px;
+    height: 108px;
+    width: 38px;
     position: absolute;
     background-color: #39CDCC;
     top: 92px;
     left: 0px;
     border-radius: 0 5px 5px 0;
-    transform: rotate(90deg);
     padding: 10px;
     padding-left: 18px;
     color: #000000;
@@ -99,6 +98,8 @@ nav a {
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
+    writing-mode: vertical-rl;
+   text-align: center;
 }
 
 .Save_on_your_own_terms {
